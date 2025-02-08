@@ -29,4 +29,6 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: kongshan/hello-world:latest
+          tags: uohuynix/hello-world:latest
+
+
