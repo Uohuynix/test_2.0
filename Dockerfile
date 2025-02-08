@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /docker
 
 # 复制 Python 文件到容器中
-COPY hello.py .
+COPY test.py .
 
 # 执行 Python 程序
 CMD ["python", "test.py"]
