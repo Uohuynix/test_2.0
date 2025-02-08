@@ -8,4 +8,4 @@ WORKDIR /docker
 COPY hello.py .
 
 # 执行 Python 程序
-CMD ["python", "hello.py"]
+CMD ["python", "test.py"]
